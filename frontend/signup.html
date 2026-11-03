@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Climate Action</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="auth-page">
+
+    <header class="header">
+
+        <a href="index.html" class="logo">
+            🌱 Climate<span class="logo-highlight">Action</span>
+        </a>
+
+        <div class="header-buttons">
+            <a href="login.html" class="login-button">Login</a>
+        </div>
+
+    </header>
+
+
+    <main class="auth-section">
+
+        <div class="auth-box">
+
+            <h2>Create Your Account</h2>
+
+            <p>Join us in building a sustainable future.</p>
+
+            <form id="registerForm">
+
+                <input
+                    type="text"
+                    id="registerName"
+                    placeholder="Your name"
+                    required>
+
+                <input
+                    type="email"
+                    id="registerEmail"
+                    placeholder="Email address"
+                    required>
+
+                <input
+                    type="password"
+                    id="registerPassword"
+                    placeholder="Password"
+                    minlength="8"
+                    required>
+
+                <button type="submit">Create Account</button>
+
+            </form>
+
+            <p class="auth-switch">
+                Already have an account?
+                <a href="login.html">Login</a>
+            </p>
+
+            <a href="index.html" class="back-home-button">
+                ← Back to Home
+            </a>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

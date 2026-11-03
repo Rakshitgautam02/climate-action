@@ -1,0 +1,17 @@
+# Secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Java and Maven
+target/
+*.class
+
+# IDE
+.idea/
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
