@@ -2,7 +2,7 @@
 // CLIMATE ACTION - FRONTEND JAVASCRIPT
 // ========================================
 
-const API_BASE_URL = `http://${window.location.hostname}:8080`;
+const API_BASE_URL = "https://climate-action1.onrender.com";
 
 let footprintChart = null;
 
