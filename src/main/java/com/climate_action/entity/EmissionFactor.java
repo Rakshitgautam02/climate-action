@@ -47,4 +47,20 @@ public class EmissionFactor {
     public String getSource() {
         return source;
     }
+
+    public void setActivityType(String activityType) {
+        this.activityType = activityType;
+    }
+
+    public void setUnit(String unit) {
+        this.unit = unit;
+    }
+
+    public void setFactorValue(Double factorValue) {
+        this.factorValue = factorValue;
+    }
+
+    public void setSource(String source) {
+        this.source = source;
+    }
 }
